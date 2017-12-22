@@ -1,0 +1,369 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+
+body{
+	font-size: 14px;
+	font-family: sans-serif;
+	background-color: #add8e6;
+
+}
+/*adding an image in the login page background
+no-repeat center center fixed
+*/
+#loginpagebackground{
+	background: url('../images/fhibackground.jpg');
+	background-size: cover;
+}
+
+#loginformlocation{
+	padding:120px 0 140px 0;
+}
+
+#mainbody {
+	position: relative;
+	padding:100px 0 0 0;
+}
+
+/*
+header or navigation pane of the index.php page
+*/
+#indexheader {
+	background-color: DARKCYAN !important; /* Dark-grey background */
+	height: 125px;
+}
+
+/*
+navigation bar on the index.php page
+*/
+#indexnavigation{
+	background-color: green !important; /* Dark-grey background */
+	height: 60px;
+}
+
+#indexnavigation > ul > li > a:hover{
+	background-color: green !important; /* Dark-grey background */
+}
+
+/*
+location and position of the Minstry of Health logo
+*/
+#MOHFW{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+/*
+position for the navigation menu items on the index.php page
+*/
+#centeralign{
+	position:absolute;
+	top:50px;
+	left:150px;
+}
+
+/*
+location and position of the fhi360 logo
+*/
+#FHI{
+	width: 150px; 
+	height: 95px; 
+	position: absolute;
+	top: 0px;
+	left: 1120px;
+}
+
+.nav-bar{
+	background-color: green; /* Dark-grey background */
+	padding:25px 0px 20px 0;
+	height:20px;
+	list-style:none;
+	text-align:center;
+	width:100%;
+}
+
+.nav-bar > ul{
+	list-style-type:none;
+	width:100%;
+	padding:0;
+}
+
+.nav-bar > li{
+	display:inline-block;
+	padding:0 15px 0 15px;
+	list-style-type:none;
+}
+
+.nav-bar > li > a {
+	text-decoration:none;
+	color:orange;
+	width:225px;
+	background-color:green;
+	
+}
+
+.nav-bar > li > a:hover {
+	text-decoration:none;
+	color:white;
+	width:225px;
+	background-color:DARKCYAN;
+	
+}
+
+/*
+welcome message coming which says welcome to the site.....on index.php
+*/
+#welcomemessage {
+	padding:20px 0 0 0;
+	left:500px;
+	font-weight: bold;
+	color: blue;
+	font-size: 28px;
+	text-shadow: 1px 1px yellow; 
+	text-align: center;
+}
+
+
+/*
+this is the header for the registration.php
+*/
+.header{
+	width: 93%;
+	margin: 10px auto 0;
+	color: white;
+	background: #5FAE90;
+	text-align: center;
+	border: 2px solid blue;
+	border-radius: 10px 10px 0 0;
+	padding: 10px;
+	text-align: center;
+}
+
+/*
+form{
+	width: 35%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 2px solid red;	
+	background: #9FE423;
+	border-radius: none;
+}
+*/
+
+/*
+this form class is specifically for the addquestions.php page to get the questions and
+answers details.
+*/
+#addquestion{
+	width: 93%;
+	margin: 5px auto;
+	padding: 10px;
+	border: 1px solid red;	
+	background: #9FE423;
+	border-radius: none;	
+}
+
+/*
+each form in the project will have its own unique class to take care of formatting needs as 
+applicable for each page
+*/
+.login{
+	width: 35%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 2px solid red;	
+	background: #9FE423;
+	border-radius: none;
+}
+
+.registration{
+	width: 35%;
+	margin: 50px auto;
+	padding: 10px;
+	border: 2px solid red;	
+	background: #9FE423;
+	border-radius: none;
+}
+
+.registration a:hover{
+	color: yellow;
+}
+
+.input_group{
+	margin: 10px 0 10px 0;
+}
+
+.input_group > label{
+	text-align: left;
+	display: block;
+	margin: 3px;
+}
+
+.input_group > input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5FAE90;
+	border: none;
+	border-radius: 5px;
+}
+
+.error {
+	width: 93%;
+	margin: auto;
+	padding: 5px;
+	border: 1px solid blue;
+	color: red;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.indexpageheader {
+	background-color: gray;
+}
+
+/* this back ground is used to display the dark blule back ground which was the one given
+in the power point presentation shared by FHI360 for the project*/
+.quizbody {
+	background: url('../images/BackGround.png') no-repeat center center fixed;
+	background-size: cover;
+	font-size: 20px;
+}
+
+.container-fluid{
+	color: white;
+	text-align: center;
+	padding: 0px ! important;
+}
+
+/* To align the button to the center of the page absolute value 	*/
+.wrapper {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn-success{
+	background-color: yellow;
+}
+
+#proceed{
+	display:none;
+}
+
+#quizquestionlogos{
+	background: black no-repeat center center fixed;
+	height: 300px;
+	padding: 10px 0 0 0;	
+}
+
+#scorecard{
+	background:transparent;
+}
+
+#scorecard a{
+	color:orange;
+}
+
+/*Trial for the different answer types on the screen Question + answers */
+/*hexagons*/
+#godhelpquestion{
+	background: url("../images/qnaplaceholder.png") no-repeat center;
+	padding: 28px;
+	background-size: 800px 80px;
+	color:white;
+	font-size: 24px;
+}
+
+#godhelpanswer1{
+	background: url("../images/qnaplaceholderleft.png") no-repeat center;
+	padding: 25px;
+	background-size: 500px 80px;
+	color:white;
+	margin-right: -70px;
+	margin-left: 50px;
+	line-height: 20px;
+	font-size: 24px;
+}
+
+#godhelpanswer1 > a:hover{
+	background-color: green;
+	border: 20px solid green;
+}
+
+
+#godhelpanswer2{
+	background: url("../images/qnaplaceholderleft.png") no-repeat center;
+	padding: 25px;
+	background-size: 500px 80px;
+	color:white;
+	margin-left: -70px;
+	margin-right: -30px;
+	line-height: 20px;
+	font-size: 24px;
+}
+
+#godhelpanswer2 > a:hover{
+	background-color: green;
+	border: 20px solid green;
+}
+
+#godhelpanswer3{
+	background: url("../images/qnaplaceholderleft.png") no-repeat center;
+	padding: 25px;
+	background-size: 500px 80px;
+	color:white;
+	margin-right: -70px;
+	margin-left: 50px;
+	line-height: 20px;
+	font-size: 24px;
+}
+
+#godhelpanswer3 > a:hover{
+	background-color: green;
+	border: 20px solid green;
+}
+
+#godhelpanswer4{
+	background: url("../images/qnaplaceholderleft.png") no-repeat center;
+	padding: 25px;
+	background-size: 500px 80px;
+	color:white;
+	margin-left: -70px;
+	margin-right: -30px;
+	line-height: 20px;
+	font-size: 24px;
+}
+
+#godhelpanswer4 > a:hover{
+	background-color: green;
+	border: 20px solid green;
+}
+
+.panel-heading{
+	text-align: center;
+}
+
+/*
+Adding border around the table in editquestions.php
+*/
+
+.table { border: 1px solid #2980B9; }
+.table thead > tr > th { border-bottom: none; }
+.table thead > tr > th,.table tbody > tr > th, .table tfoot > tr > th, 
+.table thead > tr > td, .table tbody > tr > td,
+.table tfoot > tr > td { border: 1px solid #2980B9; }
